@@ -5,7 +5,7 @@ import { RefreshCw, Database, Users, Search, Activity, HardDrive, AlertTriangle,
 const COLORS = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c'];
 const API_BASE_URL = 'http://localhost:5000/api';
 
-const FinOpsDashboard = () => {
+const FinOpsDashboard2 = () => {
   const [activeTable, setActiveTable] = useState('warehouses');
   const [tableData, setTableData] = useState({});
   const [loading, setLoading] = useState(false);
@@ -546,4 +546,4 @@ const FinOpsDashboard = () => {
   );
 };
 
-export default FinOpsDashboard;
+export default FinOpsDashboard2;

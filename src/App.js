@@ -4,10 +4,12 @@ import FinopsUserTable from './pages/caludetable';
 // import FinOpsDashboard from './pages/dashboard';
 import App2 from './pages/app.tsx';
 import FinOpsDashboard from './pages/quod.tsx';
+import FinOpsDashboard2 from './pages/FinopsDashbaord.jsx';
 
 function App() {
   return (
     <div>
+      <FinOpsDashboard2/>
       <FinOpsDashboard/>
       <App2/>
       <FinopsUserTable/>
